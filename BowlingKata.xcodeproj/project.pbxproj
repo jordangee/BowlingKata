@@ -12,7 +12,8 @@
 		FC4685501FCF0785002AB317 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC46854E1FCF0785002AB317 /* Main.storyboard */; };
 		FC4685521FCF0785002AB317 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC4685511FCF0785002AB317 /* Assets.xcassets */; };
 		FC4685551FCF0785002AB317 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC4685531FCF0785002AB317 /* LaunchScreen.storyboard */; };
-		FC4685601FCF0785002AB317 /* BowlingKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46855F1FCF0785002AB317 /* BowlingKataTests.swift */; };
+		FC4685601FCF0785002AB317 /* BowlingGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46855F1FCF0785002AB317 /* BowlingGameTests.swift */; };
+		FC46856D1FCF07C4002AB317 /* BowlingGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC46856C1FCF07C4002AB317 /* BowlingGame.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +35,9 @@
 		FC4685541FCF0785002AB317 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC4685561FCF0785002AB317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC46855B1FCF0785002AB317 /* BowlingKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BowlingKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC46855F1FCF0785002AB317 /* BowlingKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingKataTests.swift; sourceTree = "<group>"; };
+		FC46855F1FCF0785002AB317 /* BowlingGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGameTests.swift; sourceTree = "<group>"; };
 		FC4685611FCF0785002AB317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC46856C1FCF07C4002AB317 /* BowlingGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingGame.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				FC4685511FCF0785002AB317 /* Assets.xcassets */,
 				FC4685531FCF0785002AB317 /* LaunchScreen.storyboard */,
 				FC4685561FCF0785002AB317 /* Info.plist */,
+				FC46856C1FCF07C4002AB317 /* BowlingGame.swift */,
 			);
 			path = BowlingKata;
 			sourceTree = "<group>";
@@ -90,7 +93,7 @@
 		FC46855E1FCF0785002AB317 /* BowlingKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC46855F1FCF0785002AB317 /* BowlingKataTests.swift */,
+				FC46855F1FCF0785002AB317 /* BowlingGameTests.swift */,
 				FC4685611FCF0785002AB317 /* Info.plist */,
 			);
 			path = BowlingKataTests;
@@ -201,6 +204,7 @@
 			files = (
 				FC46854D1FCF0785002AB317 /* ViewController.swift in Sources */,
 				FC46854B1FCF0785002AB317 /* AppDelegate.swift in Sources */,
+				FC46856D1FCF07C4002AB317 /* BowlingGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC4685601FCF0785002AB317 /* BowlingKataTests.swift in Sources */,
+				FC4685601FCF0785002AB317 /* BowlingGameTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
